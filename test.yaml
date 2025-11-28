@@ -1,0 +1,7 @@
+---
+- name: test FQDN
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: task ping 
+      ansible.builtin.ping: 
